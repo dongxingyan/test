@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@ltfe/ltfe-core-lib": "0.2.12",
+    "moment": "^2.26.0"
+  },
+  "devDependencies": {
+    "@ltfe/package-pre-check": "^1.0.2",
+    "check-dependencies": "^1.1.0",
+    "findup-sync": "^4.0.0"
+  },
+  "scripts": {
+    "check": "package-pre-check --check-package-name @ltfe/ltfe-core-lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongxingyan/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongxingyan/test/issues"
+  },
+  "homepage": "https://github.com/dongxingyan/test#readme"
+}
